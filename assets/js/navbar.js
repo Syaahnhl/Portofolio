@@ -34,12 +34,10 @@ function initNavbar() {
 
     // --- 🎯 ELEMEN UNTUK SCROLLSPY (ACTIVE MENU) ---
     const navLinks = document.querySelectorAll('.nav-link');
-    const sections = document.querySelectorAll('section[id]');
 
-    function updateNav() {
+    // Fungsi untuk memperbarui efek blur/warna navbar (tanpa scrollspy manual)
+    function updateNavStyle() {
         if (!navbarInner) return;
-
-        // 1. Logika Efek Transparan Navbar
         if (window.scrollY > 50) {
             navbarInner.classList.add('backdrop-blur-xl', 'bg-white/95', 'dark:bg-[#0f172a]/95', 'shadow-lg');
             navbarInner.classList.remove('backdrop-blur-md', 'bg-white/80', 'dark:bg-[#0f172a]/70');
@@ -47,37 +45,46 @@ function initNavbar() {
             navbarInner.classList.add('backdrop-blur-md', 'bg-white/80', 'dark:bg-[#0f172a]/70');
             navbarInner.classList.remove('backdrop-blur-xl', 'bg-white/95', 'dark:bg-[#0f172a]/95', 'shadow-lg');
         }
-
-        // 2. Logika ScrollSpy (Active Menu Background)
-        let currentId = 'home'; // Default ke section paling atas
-        const scrollY = window.scrollY;
-
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.offsetHeight;
-
-            // Offset 150px agar menu menyala tepat sebelum layarnya benar-benar sampai ujung
-            if (scrollY >= (sectionTop - 150) && scrollY < (sectionTop + sectionHeight - 150)) {
-                currentId = section.getAttribute('id');
-            }
-        });
-
-        navLinks.forEach(link => {
-            // Hapus kelas aktif, kembalikan ke kelas pasif (abu-abu)
-            link.classList.remove('bg-slate-200', 'dark:bg-white/10', 'text-slate-900', 'dark:text-white');
-            link.classList.add('text-slate-600', 'dark:text-gray-300', 'hover:bg-slate-100', 'dark:hover:bg-white/5');
-
-            // Jika link-nya cocok dengan ID section saat ini, berikan sorotan!
-            if (link.getAttribute('href') === `#${currentId}`) {
-                link.classList.remove('text-slate-600', 'dark:text-gray-300', 'hover:bg-slate-100', 'dark:hover:bg-white/5');
-                link.classList.add('bg-slate-200', 'dark:bg-white/10', 'text-slate-900', 'dark:text-white');
-            }
-        });
     }
 
-    // Dengarkan event scroll
-    window.addEventListener("scroll", updateNav);
-    setTimeout(updateNav, 100); // Eksekusi sekali saat halaman dimuat
+    window.addEventListener("scroll", updateNavStyle);
+    setTimeout(updateNavStyle, 100);
+
+    // --- 🚀 INTERSECTION OBSERVER (Bulletproof ScrollSpy) ---
+    const observerOptions = {
+        root: null,
+        rootMargin: '-20% 0px -60% 0px', // Aktif saat elemen masuk 20% dari atas
+        threshold: 0 // Tidak perlu menunggu full elemen
+    };
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const currentId = entry.target.getAttribute('id');
+
+                navLinks.forEach(link => {
+                    // Reset kelas semua link
+                    link.classList.remove('bg-slate-200', 'dark:bg-white/10', 'text-slate-900', 'dark:text-white');
+                    link.classList.add('text-slate-600', 'dark:text-gray-300', 'hover:bg-slate-100', 'dark:hover:bg-white/5');
+
+                    // Set aktif link yang sesuai
+                    if (link.getAttribute('href') === `#${currentId}`) {
+                        link.classList.remove('text-slate-600', 'dark:text-gray-300', 'hover:bg-slate-100', 'dark:hover:bg-white/5');
+                        link.classList.add('bg-slate-200', 'dark:bg-white/10', 'text-slate-900', 'dark:text-white');
+                    }
+                });
+            }
+        });
+    }, observerOptions);
+
+    // Observasi elemen-elemen setelah di-inject
+    setTimeout(() => {
+        const sections = document.querySelectorAll('section[id]');
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+    }, 500); // Tunggu 500ms untuk memastikan semua komponen sudah dirender DOM
+
 
     // --- Logika Deteksi Tinggi Navbar ---
     const updateNavHeight = () => {

@@ -1,0 +1,111 @@
+<section id="activity" class="py-24 relative z-10 reveal">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 data-i18n="activity.sub"
+                    class="text-sm font-bold text-indigo-500 dark:text-sky-400 uppercase tracking-widest mb-3">
+                    Open Source &amp; Konsistensi
+                </h3>
+                <h2 data-i18n="activity.title" class="text-3xl font-extrabold text-slate-900 dark:text-white">
+                    Aktivitas <span class="text-animate-gradient">Coding</span> Harian.
+                </h2>
+                <p data-i18n="activity.desc"
+                    class="mt-4 text-slate-500 dark:text-slate-400 text-base max-w-xl mx-auto font-medium">
+                    Setiap kotak hijau adalah bukti. Konsistensi bukan sekadar kebiasaan—itu adalah fondasi.
+                </p>
+            </div>
+
+            <div class="glass-card rounded-[2.5rem] p-8 md:p-10 relative overflow-hidden">
+                <!-- Decorative glow blobs -->
+                <div
+                    class="absolute -bottom-16 -left-16 w-72 h-72 bg-green-500/10 dark:bg-green-400/10 rounded-full blur-3xl pointer-events-none transform-gpu will-change-transform">
+                </div>
+                <div
+                    class="absolute -top-16 -right-16 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none transform-gpu will-change-transform">
+                </div>
+
+                <!-- Header row -->
+                <div class="flex items-center gap-4 mb-7">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-slate-800 dark:bg-[#161b22] border border-slate-700/50 flex items-center justify-center shadow-lg shadow-black/20">
+                        <i class="fab fa-github text-white text-lg"></i>
+                    </div>
+                    <div>
+                        <p class="font-extrabold text-slate-900 dark:text-white text-lg leading-none">Syaahnhl</p>
+                        <p data-i18n="activity.live"
+                            class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 font-medium">
+                            Live contribution data
+                        </p>
+                    </div>
+                    <a href="https://github.com/Syaahnhl" target="_blank"
+                        class="ml-auto px-4 py-2 text-xs font-bold rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:border-slate-300 dark:hover:border-white/20 transition-all flex items-center gap-2"
+                        data-i18n="activity.view_profile">
+                        <i class="fas fa-external-link-alt text-[10px]"></i> View Profile
+                    </a>
+                </div>
+
+                <!-- Time Filter -->
+                <div class="flex flex-wrap gap-2 mb-6" id="gh-filter-buttons">
+                    <button id="btn-minggu" data-filter="7days"
+                        class="px-4 py-2 text-xs font-bold rounded-xl bg-slate-100 dark:bg-[#161b22] border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all"
+                        data-i18n="activity.filter_week">Minggu
+                        Ini</button>
+                    <button id="btn-bulan" data-filter="30days"
+                        class="px-4 py-2 text-xs font-bold rounded-xl bg-slate-100 dark:bg-[#161b22] border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all"
+                        data-i18n="activity.filter_month">Bulan
+                        Ini</button>
+                    <button id="btn-tahun" data-filter="thisyear"
+                        class="px-4 py-2 text-xs font-bold rounded-xl bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 shadow-md transition-all"
+                        data-i18n="activity.filter_year">Tahun
+                        Ini</button>
+                </div>
+
+                <!-- The Graph -->
+                <div
+                    class="gh-graph-wrapper relative min-h-[150px] w-full overflow-x-auto overflow-y-hidden flex justify-center">
+                    <img id="github-graph-img" src="https://ghchart.rshah.org/Syaahnhl"
+                        alt="GitHub Contribution Graph - Syaahnhl" loading="lazy"
+                        class="min-w-[700px] md:min-w-full h-auto block transition-all duration-300 invert hue-rotate-180 brightness-125">
+                </div>
+
+                <!-- Legend -->
+                <div
+                    class="flex justify-end items-center gap-1.5 mt-5 pt-5 border-t border-slate-200 dark:border-white/5 text-[11px] font-medium text-slate-400">
+                    <span data-i18n="activity.less">Less</span>
+                    <div class="flex gap-[3px]">
+                        <div class="w-[10px] h-[10px] rounded-[2px] bg-[#161b22]"></div>
+                        <div class="w-[10px] h-[10px] rounded-[2px] bg-[#0e4429]"></div>
+                        <div class="w-[10px] h-[10px] rounded-[2px] bg-[#006d32]"></div>
+                        <div class="w-[10px] h-[10px] rounded-[2px] bg-[#26a641]"></div>
+                        <div class="w-[10px] h-[10px] rounded-[2px] bg-[#39d353]"></div>
+                    </div>
+                    <span data-i18n="activity.more">More</span>
+                </div>
+            </div>
+
+            <!-- System Runtime Live Monitor -->
+            <div
+                class="mt-8 relative rounded-[2rem] border border-slate-700/50 bg-[#0a0a0a] overflow-hidden shadow-2xl">
+                <!-- Top Bar -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-[#111]">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-robot text-emerald-500 text-sm"></i>
+                        <span data-i18n="terminal.title"
+                            class="text-xs font-bold text-slate-400 uppercase tracking-widest">System Runtime
+                            Monitor</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                        </span>
+                        <span data-i18n="terminal.live"
+                            class="text-[10px] font-bold text-red-500 uppercase tracking-wider">Live Monitor</span>
+                    </div>
+                </div>
+
+                <!-- Terminal Body -->
+                <div id="ai-terminal-content" class="p-4 font-mono text-sm text-green-500 h-32 overflow-hidden"></div>
+            </div>
+        </div>
+    </section>

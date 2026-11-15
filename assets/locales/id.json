@@ -6,62 +6,62 @@
     "skills": "Teknologi",
     "activity": "Aktivitas",
     "projects": "Portofolio",
-    "collab": "Mari Berkolaborasi"
+    "collab": "Hubungi saya"
   },
   "hero": {
-    "badge_available": "Available for Selected Projects",
-    "headline": "Website, aplikasi Android, dan sistem operasional bisnis.",
-    "proof": "Android offline-first, Laravel API, dan sinkronisasi pesanan dapur.",
-    "desc": "Saya membangun backend Laravel, aplikasi Kotlin, dan integrasi data untuk kasir, inventaris, serta alur kerja bisnis.",
+    "badge_available": "Terbuka untuk proyek dan peluang kerja",
+    "headline": "Saya bikin software<br><em>untuk kerja sehari-hari.</em>",
+    "proof": "Kasir offline, inventaris, dan pesanan dapur.",
+    "desc": "Saya memakai Laravel dan Kotlin untuk membangun aplikasi operasional: kasir, inventaris, dan alur kerja dapur.",
     "trust": {
-      "offline": "Offline-First",
-      "real": "Used in Real Operations",
-      "prod": "Production Ready",
-      "sync": "Multi-Device Sync"
+      "offline": "Transaksi offline",
+      "real": "Aplikasi operasional",
+      "prod": "Web & Android",
+      "sync": "Sinkronisasi perangkat"
     },
-    "built_for_label": "Built for:",
+    "built_for_label": "Yang saya kerjakan:",
     "built_for": {
-      "retail": "Retail Operations",
-      "kitchen": "Kitchen Display",
-      "erp": "ERP Workflow",
-      "pos": "Multi-Outlet POS"
+      "retail": "Operasional ritel",
+      "kitchen": "Layar pesanan dapur",
+      "erp": "Alur kerja ERP",
+      "pos": "Kasir multi-outlet"
     },
     "metrics": {
-      "modules": "5+ Production Modules",
-      "env": "3 Business Environments",
-      "arch": "Offline-First Architecture",
-      "usage": "Real Daily Usage"
+      "modules": "Kasir & inventaris",
+      "env": "Web & Android",
+      "arch": "Penyimpanan offline",
+      "usage": "Alur kerja operasional"
     },
     "btn_case": "Lihat proyek saya",
-    "btn_git": "<i class=\"fab fa-github text-xl\"></i> GitHub & Architecture",
+    "btn_git": "<i class=\"fab fa-github text-xl\"></i> Lihat GitHub",
     "loader": {
-      "auth": "AUTHENTICATING...",
-      "err_title": "ERROR: VERIFICATION INTERRUPTED",
-      "err_desc": "Re-authenticating...",
-      "success_title": "ACCESS GRANTED",
-      "success_desc": "Tech Architect Verified"
+      "auth": "MEMUAT...",
+      "err_title": "BELUM BERHASIL DIMUAT",
+      "err_desc": "Mencoba kembali...",
+      "success_title": "SIAP",
+      "success_desc": "Portofolio siap dibuka"
     },
-    "metric_modules": "Modul Produksi",
-    "metric_offline": "Offline-First",
-    "metric_live": "Operasional Nyata"
+    "metric_modules": "Proyek pilihan",
+    "metric_offline": "Dukungan offline",
+    "metric_live": "Aplikasi operasional"
   },
   "philosophy": {
-    "sub": "Filosofi Arsitektur",
-    "title": "Saya Tidak Membangun Fitur. Saya Merancang Sistem yang Bertahan.",
-    "p1": "Sebagai Tech Architect & pemilik bisnis F&B, saya memiliki perspektif operasional ganda. Saya menganalisis masalah langsung dari lapangan, lalu membangun sistem untuk menyelesaikannya.",
-    "p2": "Perangkat lunak bernilai bukan sekadar terbebas dari <em>bug</em> — melainkan arsitektur yang terbukti <strong>mempercepat alur kerja di lingkungan bisnis nyata</strong>, seperti manajemen ritel dan dapur katering.",
-    "p3": "Spesialisasi saya adalah ekosistem <em>end-to-end</em>: memadukan keandalan <strong>Laravel REST API</strong> di sisi server dengan ketangguhan <strong>Kotlin & Jetpack Compose</strong> di sisi <em>mobile</em>."
+    "sub": "Tentang saya",
+    "title": "Saya mulai dari pekerjaan yang perlu dibereskan.",
+    "p1": "Saya mengembangkan software sekaligus menjalankan bisnis F&B. Kebutuhan kasir dan dapur ikut membentuk cara saya melihat sebuah aplikasi.",
+    "p2": "Saya tertarik pada detail yang terasa saat bekerja: transaksi ketika internet putus, catatan stok, dan pesanan yang perlu sampai ke dapur.",
+    "p3": "Untuk mengerjakannya, saya memakai <strong>Laravel REST API</strong> di server serta <strong>Kotlin dan Jetpack Compose</strong> di Android."
   },
   "skills": {
-    "sub": "Tech Stack & Infrastruktur",
-    "title": "Fondasi Teknologi di Balik Setiap Arsitektur.",
+    "sub": "Teknologi",
+    "title": "Perangkat yang saya pakai.",
     "items": {
       "backend": {
         "label": "Backend",
         "val": "Laravel (PHP)"
       },
       "mobile": {
-        "label": "Mobile App",
+        "label": "Aplikasi Android",
         "val": "Kotlin & Compose"
       },
       "db": {
@@ -69,46 +69,46 @@
         "val": "MySQL & Room"
       },
       "sync": {
-        "label": "Real-Time Sync",
+        "label": "Sinkronisasi",
         "val": "WebSockets"
       },
       "deploy": {
-        "label": "Deployment",
+        "label": "Server",
         "val": "DigitalOcean VPS"
       }
     },
-    "cap_api": "API Architecture",
-    "cap_offline": "Offline Synchronization",
-    "cap_rt": "Real-Time Messaging",
-    "cap_auto": "Business Automation",
-    "cap_mt": "Multi-Tenant Systems"
+    "cap_api": "Perancangan API",
+    "cap_offline": "Sinkronisasi data offline",
+    "cap_rt": "Pesan real-time",
+    "cap_auto": "Otomasi operasional",
+    "cap_mt": "Sistem multi-tenant"
   },
   "methodology": {
-    "sub": "Metodologi",
-    "title": "How I Build.",
+    "sub": "Proses",
+    "title": "Cara saya mengerjakan proyek.",
     "steps": {
       "s1": {
-        "title": "01 Diagnose",
-        "desc": "I study operational bottlenecks."
+        "title": "01 Pahami alurnya",
+        "desc": "Saya mulai dengan memahami siapa yang memakai aplikasi dan bagian pekerjaan yang menyulitkan."
       },
       "s2": {
-        "title": "02 Architect",
-        "desc": "I design scalable systems."
+        "title": "02 Susun kebutuhan",
+        "desc": "Saya petakan data dan alur utama, lalu tentukan bagian yang perlu dibuat lebih dulu."
       },
       "s3": {
-        "title": "03 Build",
-        "desc": "I ship production-ready software."
+        "title": "03 Bangun dan uji",
+        "desc": "Saya buat aplikasi bertahap dan menguji alurnya, termasuk saat koneksi terputus."
       },
       "s4": {
-        "title": "04 Optimize",
-        "desc": "I monitor and improve continuously."
+        "title": "04 Perbaiki dari pemakaian",
+        "desc": "Saya gunakan laporan masalah dan masukan pengguna untuk menentukan perbaikan berikutnya."
       }
     }
   },
   "activity": {
-    "sub": "Open Source & Konsistensi",
-    "title": "Aktivitas <span class=\"text-animate-gradient\">Coding</span> Harian.",
-    "desc": "Setiap kotak hijau adalah bukti. Konsistensi bukan sekadar kebiasaan—itu adalah fondasi.",
+    "sub": "GitHub",
+    "title": "Catatan di GitHub.",
+    "desc": "Repositori dan kontribusi saya bisa dilihat di GitHub.",
     "live": "Live contribution data",
     "view_profile": "<i class=\"fas fa-external-link-alt text-[10px]\"></i> View Profile",
     "filter_week": "Minggu Ini",
@@ -124,72 +124,72 @@
     "hint": "Press <kbd style=\"background:#00ff0015;border:1px solid #00ff0040;padding:1px 5px;border-radius:3px;\">~</kbd> for terminal"
   },
   "projects": {
-    "sub": "Studi Kasus & Portofolio",
-    "title": "Dampak Nyata dalam Kode.",
-    "desc": "Sistem terintegrasi berskala penuh yang telah saya rancang untuk mendorong efisiensi operasional bisnis.",
-    "badge_live": "LIVE PRODUCTION",
-    "badge_internal": "INTERNAL SYSTEM",
-    "badge_client": "CLIENT DEPLOYED",
-    "badge_used": "USED DAILY",
-    "view_ui": "<i class=\"fas fa-search-plus\"></i> Tinjau Antarmuka",
-    "view_arch": "<i class=\"fas fa-project-diagram text-indigo-500 group-hover/btn:rotate-12 transition-transform duration-300\"></i> View Architecture <i class=\"fas fa-chevron-right text-xs opacity-50 group-hover/btn:translate-x-1 transition-transform duration-300\"></i>",
+    "sub": "Proyek pilihan",
+    "title": "Beberapa yang saya kerjakan.",
+    "desc": "Aplikasi kasir, sistem internal, dan website. Masing-masing punya kebutuhan yang berbeda.",
+    "badge_live": "APLIKASI WEB",
+    "badge_internal": "SISTEM INTERNAL",
+    "badge_client": "WEBSITE KLIEN",
+    "badge_used": "APLIKASI OPERASIONAL",
+    "view_ui": "<i class=\"fas fa-search-plus\"></i> Lihat tampilan",
+    "view_arch": "<i class=\"fas fa-project-diagram text-indigo-500 group-hover/btn:rotate-12 transition-transform duration-300\"></i> Lihat detail <i class=\"fas fa-chevron-right text-xs opacity-50 group-hover/btn:translate-x-1 transition-transform duration-300\"></i>",
     "p1": {
       "title": "Kaching! SaaS POS Ecosystem",
-      "problem": "<strong>Masalah:</strong> Internet tidak stabil menghentikan transaksi kasir, memicu hilangnya antrean pendapatan di F&B.",
-      "solution": "<strong>Solusi:</strong> Ekosistem SaaS POS berarsitektur <strong>Offline-First</strong>. Transaksi tetap berjalan tanpa internet. Saat pulih, <strong>WebSocket Sync</strong> otomatis memperbarui layar pesanan dapur (*Kitchen Display System*).",
-      "impact": "<strong>Dampak:</strong> Eliminasi total <em>downtime</em> transaksi. Sinkronisasi operasional yang andal di jam-jam sibuk (*rush hour*)."
+      "problem": "<strong>Kebutuhan:</strong> Kasir perlu mencatat transaksi meski koneksi internet terputus.",
+      "solution": "<strong>Yang saya buat:</strong> SaaS POS dengan transaksi offline dan sinkronisasi WebSocket untuk layar pesanan dapur (KDS).",
+      "impact": "<strong>Cara kerjanya:</strong> Transaksi disimpan saat offline, lalu data disinkronkan kembali ketika koneksi tersedia."
     },
     "p2": {
       "title": "MBG ERP System",
-      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / Internal",
-      "problem": "<strong>Masalah:</strong> Manajemen inventaris pada katering massal sangat rentan terhadap kesalahan rekap stok manual dan miskalkulasi bahan baku.",
-      "solution": "<strong>Solusi:</strong> Sistem ERP spesifik untuk mengotomatisasi alur produksi — dari pengadaan bahan (*procurement*) hingga distribusi, dengan <em>dashboard</em> inventaris <em>real-time</em>.",
-      "impact": "<strong>Dampak:</strong> Menekan <em>human error</em>. Memastikan ketersediaan bahan terkontrol ketat untuk operasi katering harian berskala besar."
+      "label": "<i class=\"fas fa-server mr-1.5\"></i> Lokal / internal",
+      "problem": "<strong>Kebutuhan:</strong> Operasional katering perlu mencatat stok bahan dan mengikuti alur pengadaan hingga distribusi.",
+      "solution": "<strong>Yang saya buat:</strong> ERP internal untuk alur produksi katering dengan dashboard inventaris real-time.",
+      "impact": "<strong>Cakupan:</strong> Catatan pengadaan, ketersediaan bahan, dan distribusi dalam satu sistem."
     },
     "p3": {
       "title": "Natgrey Business Profile",
-      "desc": "Katalog digital premium untuk <em>brand</em> pencahayaan arsitektur. Fokus pada performa muat instan, transisi halus, dan presentasi UI/UX bernuansa mewah untuk memikat klien korporat B2B."
+      "desc": "Saya membuat profil bisnis dan katalog digital untuk Natgrey, brand pencahayaan arsitektur. Website ini menampilkan produk untuk calon klien B2B."
     },
     "p4": {
       "title": "Car Sales & Inventory",
-      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / Internal",
-      "desc": "Platform <em>listing</em> kendaraan interaktif. Dilengkapi mesin pencarian dinamis dan panel manajemen inventaris agar penjual <em>dealer</em> dapat mengontrol aset unit mereka setiap saat."
+      "label": "<i class=\"fas fa-server mr-1.5\"></i> Lokal / internal",
+      "desc": "Saya membuat aplikasi listing kendaraan dengan pencarian dan panel inventaris. Dealer dapat mengelola data unit yang dijual."
     },
     "p5": {
       "title": "SmartSAW Decision Logic",
-      "desc": "Digitalisasi model logika keputusan matematis. Mengotomatisasi matriks SAW (Simple Additive Weighting) untuk menghasilkan pembobotan multi-kriteria yang cepat, obyektif, dan presisi."
+      "desc": "Saya menerapkan metode SAW (Simple Additive Weighting) dalam aplikasi untuk menghitung penilaian berdasarkan beberapa kriteria dan bobotnya."
     }
   },
   "why": {
-    "sub": "Nilai Tambah",
-    "title": "Why Founders Work With Me.",
+    "sub": "Dalam bekerja",
+    "title": "Hal yang saya perhatikan.",
     "c1": {
-      "title": "Business Owner Perspective",
-      "desc": "Saya membangun bukan hanya sebagai engineer, tapi sebagai founder yang memahami P&L, efisiensi operasional, dan ROI bisnis."
+      "title": "Konteks bisnis",
+      "desc": "Pengalaman menjalankan bisnis membuat saya mempertimbangkan biaya dan pekerjaan harian saat menentukan fitur."
     },
     "c2": {
-      "title": "Engineer Execution",
-      "desc": "Kode yang ditulis secara pragmatis untuk mencapai skala, stabilitas, dan performa tinggi di lingkungan produksi nyata."
+      "title": "Kode yang bisa dirawat",
+      "desc": "Saya memilih struktur yang bisa saya jelaskan dan perbaiki ketika kebutuhan berubah."
     },
     "c3": {
-      "title": "Production-First Mindset",
-      "desc": "Setiap arsitektur dirancang sejak hari pertama untuk menangani beban operasi tinggi dengan downtime yang ditekan seminimal mungkin."
+      "title": "Kondisi pemakaian",
+      "desc": "Saya memperhitungkan koneksi yang terputus dan data yang perlu tersimpan di perangkat."
     },
     "c4": {
-      "title": "End-to-End Ownership",
-      "desc": "Dari sketsa konsep database, penulisan API, hingga deployment dan monitoring di server, saya memegang tanggung jawab penuh."
+      "title": "Sampai ke server",
+      "desc": "Saya mengerjakan database dan API, lalu menangani deployment serta pemantauan server."
     }
   },
   "cta": {
-    "title": "Diskusikan peran atau proyek Anda.",
-    "desc": "Untuk rekrutmen atau kolaborasi, ceritakan kebutuhan, lingkup pekerjaan, dan jadwal Anda melalui email.",
-    "btn": "Kirim email"
+    "title": "Ada pekerjaan yang bisa saya bantu?",
+    "desc": "Saya terbuka untuk peluang kerja dan proyek. Kirim email tentang kebutuhan Anda dan perkiraan waktunya.",
+    "btn": "Email saya"
   },
   "footer": {
-    "copy": "&copy; 2026 Syahnahl Dilarexa. Architecture. Operations. Execution."
+    "copy": "&copy; 2026 Syahnahl Dilarexa. Terima kasih sudah mampir."
   },
   "seo": {
-    "title": "Syahnahl Dilarexa | Tech Architect",
-    "desc": "Portofolio Syahnahl Dilarexa, seorang Tech Architect yang berfokus pada Offline-First Architecture dan ekosistem SaaS POS."
+    "title": "Syahnahl Dilarexa | Developer Laravel & Kotlin",
+    "desc": "Portofolio Syahnahl Dilarexa. Saya membuat aplikasi web dan Android dengan Laravel dan Kotlin untuk kasir, inventaris, serta operasional bisnis."
   }
 }

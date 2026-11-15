@@ -18,7 +18,7 @@ function initI18n() {
             lng: savedLang,
             debug: false,
             backend: {
-                loadPath: 'assets/locales/{{lng}}.json?v=mobile-hiring-1'
+                loadPath: 'assets/locales/{{lng}}.json?v=editorial-2'
             }
         }, function (err, t) {
             if (err) return console.error('Error loading i18next:', err);

@@ -6,62 +6,62 @@
     "skills": "Technology",
     "activity": "Activity",
     "projects": "Portfolio",
-    "collab": "Let's Collaborate"
+    "collab": "Get in touch"
   },
   "hero": {
-    "badge_available": "Available for Selected Projects",
-    "headline": "Websites, Android apps, and business operations software.",
-    "proof": "Offline-first Android, Laravel API, and kitchen order synchronization.",
-    "desc": "I build Laravel backends, Kotlin apps, and data integrations for point of sale, inventory, and business workflows.",
+    "badge_available": "Open to projects and job opportunities",
+    "headline": "I build software<br><em>for everyday work.</em>",
+    "proof": "Offline checkout, inventory, and kitchen orders.",
+    "desc": "I use Laravel and Kotlin to build operational apps for checkout, inventory, and kitchen workflows.",
     "trust": {
-      "offline": "Offline-First",
-      "real": "Used in Real Operations",
-      "prod": "Production Ready",
-      "sync": "Multi-Device Sync"
+      "offline": "Offline checkout",
+      "real": "Operational apps",
+      "prod": "Web & Android",
+      "sync": "Device sync"
     },
-    "built_for_label": "Built for:",
+    "built_for_label": "What I work on:",
     "built_for": {
-      "retail": "Retail Operations",
-      "kitchen": "Kitchen Display",
-      "erp": "ERP Workflow",
-      "pos": "Multi-Outlet POS"
+      "retail": "Retail operations",
+      "kitchen": "Kitchen displays",
+      "erp": "ERP workflows",
+      "pos": "Multi-outlet POS"
     },
     "metrics": {
-      "modules": "5+ Production Modules",
-      "env": "3 Business Environments",
-      "arch": "Offline-First Architecture",
-      "usage": "Real Daily Usage"
+      "modules": "Checkout & inventory",
+      "env": "Web & Android",
+      "arch": "Offline storage",
+      "usage": "Operational workflows"
     },
     "btn_case": "View my projects",
-    "btn_git": "<i class=\"fab fa-github text-xl\"></i> GitHub & Architecture",
+    "btn_git": "<i class=\"fab fa-github text-xl\"></i> View GitHub",
     "loader": {
-      "auth": "AUTHENTICATING...",
-      "err_title": "ERROR: VERIFICATION INTERRUPTED",
-      "err_desc": "Re-authenticating...",
-      "success_title": "ACCESS GRANTED",
-      "success_desc": "Tech Architect Verified"
+      "auth": "LOADING...",
+      "err_title": "COULD NOT LOAD",
+      "err_desc": "Trying again...",
+      "success_title": "READY",
+      "success_desc": "Portfolio ready to open"
     },
-    "metric_modules": "Prod Modules",
-    "metric_offline": "Offline-First",
-    "metric_live": "Real Operations"
+    "metric_modules": "Selected projects",
+    "metric_offline": "Offline support",
+    "metric_live": "Operational apps"
   },
   "philosophy": {
-    "sub": "Architectural Philosophy",
-    "title": "I Don't Build Features. I Design Systems That Last.",
-    "p1": "As a Tech Architect & F&B business owner, I hold a dual operational perspective. I analyze bottlenecks directly from the field, then engineer systems to solve them.",
-    "p2": "Valuable software isn't just about being <em>bug-free</em> — it's about architecture proven to <strong>accelerate workflows in real business environments</strong>, such as retail management and catering kitchens.",
-    "p3": "My specialty is <em>end-to-end</em> ecosystems: bridging the reliability of <strong>Laravel REST APIs</strong> on the server side with the resilience of <strong>Kotlin & Jetpack Compose</strong> on mobile."
+    "sub": "About me",
+    "title": "I start with the work that needs doing.",
+    "p1": "I develop software and run an F&B business. The needs of cashiers and kitchen staff shape how I think about an app.",
+    "p2": "I care about the details people encounter at work: checkout when the internet drops, stock records, and orders that need to reach the kitchen.",
+    "p3": "I build with <strong>Laravel REST APIs</strong> on the server and <strong>Kotlin and Jetpack Compose</strong> on Android."
   },
   "skills": {
-    "sub": "Tech Stack & Infrastructure",
-    "title": "The Technological Foundation Behind Every Architecture.",
+    "sub": "Technology",
+    "title": "The tools I work with.",
     "items": {
       "backend": {
         "label": "Backend",
         "val": "Laravel (PHP)"
       },
       "mobile": {
-        "label": "Mobile App",
+        "label": "Android apps",
         "val": "Kotlin & Compose"
       },
       "db": {
@@ -69,46 +69,46 @@
         "val": "MySQL & Room"
       },
       "sync": {
-        "label": "Real-Time Sync",
+        "label": "Synchronization",
         "val": "WebSockets"
       },
       "deploy": {
-        "label": "Deployment",
+        "label": "Server",
         "val": "DigitalOcean VPS"
       }
     },
-    "cap_api": "API Architecture",
-    "cap_offline": "Offline Synchronization",
-    "cap_rt": "Real-Time Messaging",
-    "cap_auto": "Business Automation",
-    "cap_mt": "Multi-Tenant Systems"
+    "cap_api": "API design",
+    "cap_offline": "Offline data sync",
+    "cap_rt": "Real-time messaging",
+    "cap_auto": "Operational automation",
+    "cap_mt": "Multi-tenant systems"
   },
   "methodology": {
-    "sub": "Methodology",
-    "title": "How I Build.",
+    "sub": "Process",
+    "title": "How I work on a project.",
     "steps": {
       "s1": {
-        "title": "01 Diagnose",
-        "desc": "I study operational bottlenecks."
+        "title": "01 Understand the work",
+        "desc": "I start with who will use the app and which parts of their work are difficult."
       },
       "s2": {
-        "title": "02 Architect",
-        "desc": "I design scalable systems."
+        "title": "02 Map the requirements",
+        "desc": "I map the data and main workflows, then decide what needs to be built first."
       },
       "s3": {
-        "title": "03 Build",
-        "desc": "I ship production-ready software."
+        "title": "03 Build and test",
+        "desc": "I build in stages and test the workflows, including what happens when the connection drops."
       },
       "s4": {
-        "title": "04 Optimize",
-        "desc": "I monitor and improve continuously."
+        "title": "04 Learn from use",
+        "desc": "I use bug reports and user feedback to decide what to improve next."
       }
     }
   },
   "activity": {
-    "sub": "Open Source & Consistency",
-    "title": "Daily <span class=\"text-animate-gradient\">Coding</span> Activity.",
-    "desc": "Every green square is proof. Consistency isn't just a habit—it's the foundation.",
+    "sub": "GitHub",
+    "title": "My work on GitHub.",
+    "desc": "You can find my repositories and contributions on GitHub.",
     "live": "Live contribution data",
     "view_profile": "<i class=\"fas fa-external-link-alt text-[10px]\"></i> View Profile",
     "filter_week": "This Week",
@@ -124,72 +124,72 @@
     "hint": "Press <kbd style=\"background:#00ff0015;border:1px solid #00ff0040;padding:1px 5px;border-radius:3px;\">~</kbd> for terminal"
   },
   "projects": {
-    "sub": "Case Studies & Portfolio",
-    "title": "Real Impact in Code.",
-    "desc": "Full-scale integrated systems I've engineered to drive operational efficiency in business.",
-    "badge_live": "LIVE PRODUCTION",
+    "sub": "Selected projects",
+    "title": "Some of my work.",
+    "desc": "Point of sale, internal tools, and websites. Each project answers a different set of needs.",
+    "badge_live": "WEB APP",
     "badge_internal": "INTERNAL SYSTEM",
-    "badge_client": "CLIENT DEPLOYED",
-    "badge_used": "USED DAILY",
-    "view_ui": "<i class=\"fas fa-search-plus\"></i> View Interface",
-    "view_arch": "<i class=\"fas fa-project-diagram text-indigo-500 group-hover/btn:rotate-12 transition-transform duration-300\"></i> View Architecture <i class=\"fas fa-chevron-right text-xs opacity-50 group-hover/btn:translate-x-1 transition-transform duration-300\"></i>",
+    "badge_client": "CLIENT WEBSITE",
+    "badge_used": "OPERATIONAL APP",
+    "view_ui": "<i class=\"fas fa-search-plus\"></i> View screens",
+    "view_arch": "<i class=\"fas fa-project-diagram text-indigo-500 group-hover/btn:rotate-12 transition-transform duration-300\"></i> View details <i class=\"fas fa-chevron-right text-xs opacity-50 group-hover/btn:translate-x-1 transition-transform duration-300\"></i>",
     "p1": {
       "title": "Kaching! SaaS POS Ecosystem",
-      "problem": "<strong>Problem:</strong> Unstable internet halts cashier transactions, triggering lost revenue queues in F&B.",
-      "solution": "<strong>Solution:</strong> An <strong>Offline-First</strong> SaaS POS architecture. Transactions continue without internet. Once restored, <strong>WebSocket Sync</strong> automatically updates the kitchen screens (*Kitchen Display System*).",
-      "impact": "<strong>Impact:</strong> Total elimination of transaction <em>downtime</em>. Reliable operational sync during rush hours."
+      "problem": "<strong>Need:</strong> Cashiers need to record transactions even when the internet connection drops.",
+      "solution": "<strong>What I built:</strong> A SaaS POS with offline transactions and WebSocket synchronization for kitchen order screens (KDS).",
+      "impact": "<strong>How it works:</strong> Transactions are stored offline, then data syncs when a connection is available."
     },
     "p2": {
       "title": "MBG ERP System",
-      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / Internal",
-      "problem": "<strong>Problem:</strong> Mass catering inventory management is highly susceptible to manual stock recording errors and ingredient miscalculations.",
-      "solution": "<strong>Solution:</strong> A bespoke ERP system to automate production workflows — from procurement to distribution, featuring a <em>real-time</em> inventory dashboard.",
-      "impact": "<strong>Impact:</strong> Suppresses <em>human error</em>. Ensures tight control over ingredient availability for large-scale daily catering operations."
+      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / internal",
+      "problem": "<strong>Need:</strong> Catering operations need ingredient stock records and a way to follow procurement through to distribution.",
+      "solution": "<strong>What I built:</strong> An internal ERP for catering production workflows with a real-time inventory dashboard.",
+      "impact": "<strong>Scope:</strong> Procurement records, ingredient availability, and distribution in one system."
     },
     "p3": {
       "title": "Natgrey Business Profile",
-      "desc": "A premium digital catalog for an architectural lighting <em>brand</em>. Focused on instant load performance, smooth transitions, and a luxurious UI/UX presentation to captivate B2B corporate clients."
+      "desc": "I built a business profile and digital catalog for Natgrey, an architectural lighting brand. The website presents its products to prospective B2B clients."
     },
     "p4": {
       "title": "Car Sales & Inventory",
-      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / Internal",
-      "desc": "Interactive vehicle <em>listing</em> platform. Equipped with a dynamic search engine and inventory management panel allowing dealers to track their asset units at all times."
+      "label": "<i class=\"fas fa-server mr-1.5\"></i> Local / internal",
+      "desc": "I built a vehicle listing app with search and an inventory panel for dealers to manage the vehicles they sell."
     },
     "p5": {
       "title": "SmartSAW Decision Logic",
-      "desc": "Digitization of mathematical decision logic models. Automating the SAW (Simple Additive Weighting) matrix to generate fast, objective, and precise multi-criteria weighting."
+      "desc": "I implemented SAW (Simple Additive Weighting) in an app that calculates scores using multiple criteria and their assigned weights."
     }
   },
   "why": {
-    "sub": "Value Add",
-    "title": "Why Founders Work With Me.",
+    "sub": "Working with me",
+    "title": "What I pay attention to.",
     "c1": {
-      "title": "Business Owner Perspective",
-      "desc": "I build not just as an engineer, but as a founder who understands P&L, operational efficiency, and business ROI."
+      "title": "Business context",
+      "desc": "Running a business makes me consider costs and daily work when deciding which features to build."
     },
     "c2": {
-      "title": "Engineer Execution",
-      "desc": "Code pragmatically written to achieve scale, stability, and high performance in real production environments."
+      "title": "Code I can maintain",
+      "desc": "I choose structures I can explain and change as requirements develop."
     },
     "c3": {
-      "title": "Production-First Mindset",
-      "desc": "Every architecture is designed from day one to handle high operational loads with downtime suppressed to the absolute minimum."
+      "title": "Conditions on the ground",
+      "desc": "I account for dropped connections and data that needs to stay on the device."
     },
     "c4": {
-      "title": "End-to-End Ownership",
-      "desc": "From database concept sketches and API writing, to server deployment and monitoring, I hold full end-to-end responsibility."
+      "title": "Getting it onto the server",
+      "desc": "I work on the database and API, then handle deployment and server monitoring."
     }
   },
   "cta": {
-    "title": "Let’s talk about your role or project.",
-    "desc": "For hiring or collaboration, email me your requirements, scope of work, and timeline.",
+    "title": "Have something I can help with?",
+    "desc": "I am open to roles and project work. Email me about what you need and the timing you have in mind.",
     "btn": "Email me"
   },
   "footer": {
-    "copy": "&copy; 2026 Syahnahl Dilarexa. Architecture. Operations. Execution."
+    "copy": "&copy; 2026 Syahnahl Dilarexa. Thanks for stopping by."
   },
   "seo": {
-    "title": "Syahnahl Dilarexa | Tech Architect",
-    "desc": "Portfolio of Syahnahl Dilarexa, a Tech Architect specializing in Offline-First Architecture and SaaS POS Ecosystems."
+    "title": "Syahnahl Dilarexa | Laravel & Kotlin developer",
+    "desc": "Portfolio of Syahnahl Dilarexa. I build web and Android apps with Laravel and Kotlin for checkout, inventory, and business operations."
   }
 }

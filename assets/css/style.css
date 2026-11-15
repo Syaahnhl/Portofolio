@@ -2,9 +2,8 @@
 
 /* 🌍 PREVENT i18n FOUC (Flash of Un-translated Content) */
 html:not(.i18n-ready) body {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    overflow: hidden !important;
+    opacity: 1;
+    visibility: visible;
 }
 
 html.i18n-ready body {

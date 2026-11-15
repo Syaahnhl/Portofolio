@@ -1,5 +1,7 @@
 {
   "nav": {
+    "theme": "Change theme",
+    "contact": "Contact",
     "about": "Profile",
     "skills": "Technology",
     "activity": "Activity",
@@ -8,8 +10,9 @@
   },
   "hero": {
     "badge_available": "Available for Selected Projects",
-    "headline": "Think. <br>Ship. <br><span class=\"text-animate-gradient\">Impact.</span>",
-    "desc": "I am Syahnahl Dilarexa — A Tech Architect building real-world systems from retail operations and production kitchens to real-time business workflows.",
+    "headline": "Websites, Android apps, and business operations software.",
+    "proof": "Offline-first Android, Laravel API, and kitchen order synchronization.",
+    "desc": "I build Laravel backends, Kotlin apps, and data integrations for point of sale, inventory, and business workflows.",
     "trust": {
       "offline": "Offline-First",
       "real": "Used in Real Operations",
@@ -29,7 +32,7 @@
       "arch": "Offline-First Architecture",
       "usage": "Real Daily Usage"
     },
-    "btn_case": "View Case Studies <i class=\"fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform\"></i>",
+    "btn_case": "View my projects",
     "btn_git": "<i class=\"fab fa-github text-xl\"></i> GitHub & Architecture",
     "loader": {
       "auth": "AUTHENTICATING...",
@@ -178,9 +181,9 @@
     }
   },
   "cta": {
-    "title": "Have an Unsolved<br>Operational Bottleneck?",
-    "desc": "From architectural conceptualization to production server deployment, I am ready to engineer a scalable and durable solution. Let's turn your operational bottlenecks into competitive advantages.",
-    "btn": "<i class=\"fas fa-envelope-open-text\"></i> Book Architecture Session"
+    "title": "Let’s talk about your role or project.",
+    "desc": "For hiring or collaboration, email me your requirements, scope of work, and timeline.",
+    "btn": "Email me"
   },
   "footer": {
     "copy": "&copy; 2026 Syahnahl Dilarexa. Architecture. Operations. Execution."

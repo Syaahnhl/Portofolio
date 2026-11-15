@@ -42,9 +42,10 @@
     <script src="https://unpkg.com/i18next-browser-languagedetector@7.2.0/i18nextBrowserLanguageDetector.min.js"
         defer></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=mobile-hiring-1">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css?v=mobile-hiring-1">
     <style>
         /* Ambient Spotlight Background */
         #ambient-spotlight {
@@ -87,11 +88,11 @@
     <div id="navbar-component" style="display: contents;"></div>
     <main class="w-full relative overflow-hidden">
         <div id="hero-component" style="display: contents;"></div>
+        <div id="projects-component" style="display: contents;"></div>
         <div id="about-component" style="display: contents;"></div>
         <div id="tech-stack-component" style="display: contents;"></div>
         <div id="how-i-build-component" style="display: contents;"></div>
         <div id="process-component" style="display: contents;"></div>
-        <div id="projects-component" style="display: contents;"></div>
         <div id="why-me-component" style="display: contents;"></div>
         <div id="contact-component" style="display: contents;"></div>
     </main>
@@ -123,7 +124,8 @@
     <!-- Image Modal -->
     <div id="image-modal"
         class="fixed inset-0 z-[100] hidden flex items-center justify-center bg-slate-900/90 backdrop-blur-md opacity-0 transition-opacity duration-300">
-        <img id="modal-img" src=""
+        <button onclick="closeImageModal()" aria-label="Close screenshot" class="absolute top-4 right-4 bg-white text-slate-900 rounded-lg px-4 py-3">Close</button>
+        <img id="modal-img" alt="Project screenshot"
             class="max-w-[90%] max-h-[90vh] object-contain rounded-lg shadow-2xl scale-95 transition-transform duration-300">
     </div>
 
@@ -238,11 +240,11 @@
 
     <!-- New JS architecture -->
     <script src="assets/js/component-loader.js?v=20260508"></script>
-    <script src="assets/js/navbar.js?v=20260508"></script>
+    <script src="assets/js/navbar.js?v=mobile-hiring-1"></script>
     <script src="assets/js/loader.js?v=20260508"></script>
-    <script src="assets/js/i18n.js?v=20260508"></script>
+    <script src="assets/js/i18n.js?v=mobile-hiring-1"></script>
     <script src="assets/js/animations.js?v=20260508"></script>
-    <script src="assets/js/main.js?v=20260508"></script>
+    <script src="assets/js/main.js?v=mobile-hiring-1"></script>
     <script>
         // Set up mouse tracking for ambient spotlight
         document.addEventListener('mousemove', (e) => {

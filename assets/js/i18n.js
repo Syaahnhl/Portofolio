@@ -2,7 +2,10 @@
 let i18nInitialized = false;
 
 function initI18n() {
-    if (i18nInitialized) return;
+    if (i18nInitialized) {
+        if (window.i18next && i18next.isInitialized) updateContent();
+        return;
+    }
     i18nInitialized = true;
 
     const savedLang = localStorage.getItem('i18nextLng') || 'id';
@@ -15,7 +18,7 @@ function initI18n() {
             lng: savedLang,
             debug: false,
             backend: {
-                loadPath: 'assets/locales/{{lng}}.json'
+                loadPath: 'assets/locales/{{lng}}.json?v=mobile-hiring-1'
             }
         }, function (err, t) {
             if (err) return console.error('Error loading i18next:', err);
@@ -67,8 +70,10 @@ function initI18n() {
                 btn.removeAttribute('data-active');
             }
 
+            const hadFocus = document.activeElement === btn;
             const newBtn = btn.cloneNode(true);
             btn.parentNode.replaceChild(newBtn, btn);
+            if (hadFocus) newBtn.focus();
 
             newBtn.addEventListener('click', (e) => {
                 const lang = e.currentTarget.getAttribute('data-lang');

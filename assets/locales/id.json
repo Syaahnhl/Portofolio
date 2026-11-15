@@ -1,5 +1,7 @@
 {
   "nav": {
+    "theme": "Ganti tema",
+    "contact": "Kontak",
     "about": "Profil",
     "skills": "Teknologi",
     "activity": "Aktivitas",
@@ -8,8 +10,9 @@
   },
   "hero": {
     "badge_available": "Available for Selected Projects",
-    "headline": "Think. <br>Ship. <br><span class=\"text-animate-gradient\">Impact.</span>",
-    "desc": "Saya Syahnahl Dilarexa — Tech Architect yang membangun sistem nyata dari operasional retail, dapur produksi, hingga workflow bisnis real-time.",
+    "headline": "Website, aplikasi Android, dan sistem operasional bisnis.",
+    "proof": "Android offline-first, Laravel API, dan sinkronisasi pesanan dapur.",
+    "desc": "Saya membangun backend Laravel, aplikasi Kotlin, dan integrasi data untuk kasir, inventaris, serta alur kerja bisnis.",
     "trust": {
       "offline": "Offline-First",
       "real": "Used in Real Operations",
@@ -29,7 +32,7 @@
       "arch": "Offline-First Architecture",
       "usage": "Real Daily Usage"
     },
-    "btn_case": "Lihat Case Study <i class=\"fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform\"></i>",
+    "btn_case": "Lihat proyek saya",
     "btn_git": "<i class=\"fab fa-github text-xl\"></i> GitHub & Architecture",
     "loader": {
       "auth": "AUTHENTICATING...",
@@ -178,9 +181,9 @@
     }
   },
   "cta": {
-    "title": "Punya Masalah Operasional<br>yang Belum Terpecahkan?",
-    "desc": "Dari konseptualisasi arsitektur hingga deployment ke production server, saya siap merancang solusi yang skalabel dan tahan lama. Mari kita ubah bottleneck operasional Anda menjadi keunggulan kompetitif.",
-    "btn": "<i class=\"fas fa-envelope-open-text\"></i> Book Architecture Session"
+    "title": "Diskusikan peran atau proyek Anda.",
+    "desc": "Untuk rekrutmen atau kolaborasi, ceritakan kebutuhan, lingkup pekerjaan, dan jadwal Anda melalui email.",
+    "btn": "Kirim email"
   },
   "footer": {
     "copy": "&copy; 2026 Syahnahl Dilarexa. Architecture. Operations. Execution."
